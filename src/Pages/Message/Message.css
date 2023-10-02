@@ -1,0 +1,48 @@
+.message {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.message-item {
+  width: 100%;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-item > span {
+  font-size: 14px;
+}
+
+.message-item > p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.message-item > form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.message-item > form > input {
+  width: calc(100% - 120px);
+  height: 30px;
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-item > form > input[type="submit"] {
+  width: 110px;
+  cursor: pointer;
+  border: none;
+  background: #333;
+  color: #fff;
+}
